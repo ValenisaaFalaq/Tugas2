@@ -1,4 +1,9 @@
 # Tugas2 (OOP Based View)
+<h2>Table</h2>
+
+![image](https://github.com/user-attachments/assets/b12d966b-6b41-4d50-b701-2add57354c21)
+
+
 
 <h2>Menu </h2>
 <li>Data Mahasiswa</li>
@@ -58,12 +63,16 @@ method inheritance ini juga diimplementasikan di menu Data Nilai Perbaikan. yang
 <h3>Polymorphism</h3>
 method polymorphism saya terpakan pada penamaan judul halaman. dalam polymorph kita tidak pernah tau detail proses yang dijalankan ketika memanggil method. masih di dalam file koneksi.php. dalam class turunan database yaitu class mahasiswa dan nilai diberikan satu method judulpage() yang mana ketika dipanggil ini akan mencetak nama halaman saat ini. untuk setiap class baim itu class mahasiswa dan class nilai dibuat proses cetak yang berbeda
 class mahasiswa 
+
 ![image](https://github.com/user-attachments/assets/885ef609-adbb-4f34-8a9b-0266cdf4c437)
 
+
 class nilai
+
 ![image](https://github.com/user-attachments/assets/6909b088-3ac8-40bb-8efc-a9a4248d8cb4)
 
 class page
+
 ![image](https://github.com/user-attachments/assets/9274d8ac-add9-4ffc-8602-64d906d9ff53)
 masih di dalam file koneksi.php. class page ini merupakan class baru yang bukan turunan dari class database. namun dalam method nya kita memanggil parent class untuk menginisiasi class apasaja yang menggunaka method judulpage ini.
 
@@ -74,7 +83,10 @@ untuk instansiasinya ditaruh dalam stiap file menu yang sudah dibuat. dengan obj
 ![image](https://github.com/user-attachments/assets/83557481-7a9d-4830-99ca-0f445c9a4551)
 
 <h3>tambahan</h3>
+
 ![image](https://github.com/user-attachments/assets/cc243a7c-9cf4-488f-80e0-43e814b860d6)
+
+
 merupakan fungsi hanya menampilkan sesuai dengan matkul_id nya saja 
 
 ![image](https://github.com/user-attachments/assets/dbc2d181-1edb-463a-ba33-03d1c7cecaa9)
